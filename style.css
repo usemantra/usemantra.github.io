@@ -135,6 +135,7 @@ table {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -233,6 +234,12 @@ p {
   font-weight: bold;
 }
 
+.nav-item.active {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
 /* Content */
 .hero {
   font-weight: normal;
@@ -256,6 +263,7 @@ p {
 .illustration {
   grid-column-start: 9;
   grid-column-end: 12;
+  margin-bottom: 100px;
 }
 
 .address {
@@ -286,7 +294,7 @@ p {
 
 .section-information {
   margin-top: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 148px;
 }
 
 .section-information p {
