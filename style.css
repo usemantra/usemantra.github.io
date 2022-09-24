@@ -281,14 +281,24 @@ p {
 .careers {
   grid-column-start: 11;
   grid-column-end: 12;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .section-information {
-    margin-top: 48px;
-    margin-bottom: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .section-information p {
-    margin: 0;
+  margin: 0;
+}
+
+.logo-container {
+  overflow: hidden;
+}
+
+.logo-bottom {
+  width: 100vw;
+  transform: translateY(5px);
+  opacity: 0.2;
 }
