@@ -190,6 +190,7 @@ body {
 a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
 }
 
 p {
@@ -334,4 +335,8 @@ p {
 
 .feature > p:first-child {
     font-weight: bold;
+}
+
+.map {
+    width: 100%;
 }
