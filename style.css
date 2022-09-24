@@ -199,9 +199,12 @@ p {
   grid-template-columns: repeat(12, 1fr);
 }
 
+.border-bottom {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* Nav */
 .nav-container {
-  border: 1px solid rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   background-color: white;
@@ -211,6 +214,7 @@ p {
 .nav {
   justify-content: space-between;
   padding: 15px 0;
+  align-items: center;
 }
 
 .nav,
@@ -251,5 +255,30 @@ p {
 
 .illustration {
   grid-column-start: 9;
+  grid-column-end: 12;
+}
+
+.address {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.disclaimer {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.information {
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+
+.product {
+  grid-column-start: 9;
+  grid-column-end: 10;
+}
+
+.careers {
+  grid-column-start: 11;
   grid-column-end: 12;
 }
