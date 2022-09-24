@@ -281,4 +281,14 @@ p {
 .careers {
   grid-column-start: 11;
   grid-column-end: 12;
+  opacity: .5;
+}
+
+.section-information {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.section-information p {
+    margin: 0;
 }
