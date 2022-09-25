@@ -256,6 +256,13 @@ p {
   display: none;
 }
 
+
+@media (min-width: 768px) {
+  .nav-items {
+    display: block;
+  }
+}
+
 #menu:checked ~ .nav-items {
   display: block;
 }
@@ -302,13 +309,6 @@ p {
 .nav,
 .nav-left {
   flex-direction: row-reverse;
-}
-
-@media (min-width: 768px) {
-  .nav,
-  .nav-left {
-    flex-direction: row;
-  }
 }
 
 .nav-item {
