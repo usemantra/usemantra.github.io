@@ -232,6 +232,7 @@ p {
 #menu {
   cursor: pointer;
   appearance: none;
+  position: relative;
 }
 
 
@@ -241,11 +242,13 @@ p {
   }
 }
 
-#menu::after {
+#menu::before {
   content: url(/images/menu.svg);
+  position: absolute;
+  right: 0;
 }
 
-#menu:checked:after {
+#menu:checked:before {
   content: url(/images/menu-x.svg);
 }
 
