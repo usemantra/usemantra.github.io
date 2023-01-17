@@ -325,7 +325,7 @@ p {
   font-weight: bold;
 }
 
-.nav-item.active {
+.nav-item.button.active {
   color: white;
   background-color: black;
   border-color: black;
@@ -458,8 +458,26 @@ p {
   margin: 100px 0;
 }
 
+.banner {
+  background: linear-gradient(
+      92.95deg,
+      #ebebeb -0.48%,
+      rgba(235, 235, 235, 0) 86.57%
+    ),
+    url(/images/rick-rothenberg.jpg);
+  mix-blend-mode: darken;
+  padding: 30px 0;
+  margin: 20px;
+  font-size: 2rem;
+  border-radius: 2000px;
+}
+
+.banner > .container > div {
+  width: 70%;
+}
+
 .listings {
-  padding: 80px 0 30px 0;
+  padding: 50px 0 30px 0;
 }
 
 .listings h1 {
@@ -467,19 +485,25 @@ p {
 }
 
 .listings li {
-  margin: 30px 0;
+  padding: 30px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.listings li:last-child {
+  border: none;
 }
 
 .title-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .listings .title {
   font-weight: bold;
   font-size: 1.2rem;
-  margin-block-end: 0.8em;
+  margin-block-start: 0;
+  margin-block-end: 0em;
 }
 
 .attributes {
