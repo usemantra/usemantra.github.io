@@ -473,8 +473,10 @@ p {
   border-radius: 2000px;
 }
 
-.banner > .container > div {
-  width: 70%;
+@media (min-width: 992px) {
+  .banner > .container > div {
+    width: 70%;
+  }
 }
 
 .listings {
