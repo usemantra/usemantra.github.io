@@ -230,6 +230,14 @@ a.button.secondary {
   padding: 6px 12px 7px;
 }
 
+a.button.wapp {
+  background-color: #25D366;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 6px 12px 7px;
+}
+
 p {
   font-size: 16px;
   margin-block-start: 1em;
@@ -241,6 +249,10 @@ p {
   cursor: pointer;
   appearance: none;
   position: relative;
+}
+
+.whatsapp{
+  padding-top: 50px;
 }
 
 @media (min-width: 768px) {
