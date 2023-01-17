@@ -219,7 +219,15 @@ a.button {
   background-color: black;
   padding: 6px 12px 7px;
   border-radius: 4px;
-  font-weight: normal;
+}
+
+a.button.secondary {
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 6px 12px 7px;
 }
 
 p {
@@ -234,7 +242,6 @@ p {
   appearance: none;
   position: relative;
 }
-
 
 @media (min-width: 768px) {
   #menu {
@@ -257,7 +264,6 @@ p {
 .nav-items {
   display: none;
 }
-
 
 @media (min-width: 768px) {
   .nav-items {
@@ -300,7 +306,7 @@ p {
 
 .nav {
   justify-content: space-between;
-  height: 60px; 
+  height: 60px;
   align-items: center;
 }
 
@@ -316,10 +322,6 @@ p {
 .nav-item {
   text-decoration: none;
   color: black;
-  margin-left: 10px;
-  border: 1px solid #eaeaea;
-  border-radius: 4px;
-  padding: 6px 12px 7px;
   font-weight: bold;
 }
 
@@ -454,4 +456,44 @@ p {
 .map {
   width: 100%;
   margin: 100px 0;
+}
+
+.listings {
+  padding: 80px 0 30px 0;
+}
+
+.listings h1 {
+  font-size: 1.5rem;
+}
+
+.listings li {
+  margin: 30px 0;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listings .title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-block-end: 0.8em;
+}
+
+.attributes {
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+}
+
+.attribute .label {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 110%;
+  background: #ebebeb;
+  border-radius: 4px;
+  padding: 1px 5px;
 }
